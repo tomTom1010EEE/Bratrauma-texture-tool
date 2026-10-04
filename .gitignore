@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.local/
+*.tsbuildinfo
+test-results/
+
+# Machine-local recordings, reference screenshots, and private working notes.
+recordings/
+docs/screenshots/
+docs/damage_afflictions_reference.md
+scripts/record-demo.mjs
+scripts/assemble-demo.py
+scripts/serve-demo.mjs
+
+# Generated distribution archives and editor/source-file backups.
+release/
+*.sprite-lab.json
+*.sprite-lab-*.bak
+*.log
+.env
+.env.*
+!.env.example
