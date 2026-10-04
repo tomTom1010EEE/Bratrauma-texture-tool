@@ -1,0 +1,40 @@
+[h1]Barotrauma Chara Texture Tool｜贴图标定工具[/h1]
+
+不想为了一个 origin、握点或衣片偏移，反复进游戏盲调 XML？
+这个工具将图集框选、坐标编辑、人物对照和实时持握放在同一个界面，方便 Barotrauma Mod 作者校准武器、工具、服装与配件。
+
+[b]重要：本工坊项仅用于展示与下载指引，不包含工具运行程序。订阅 / 启用不会在游戏里增加编辑器，也不会自动安装或启动外部程序。[/b]
+
+[h2]获取工具[/h2]
+[url=https://github.com/tomTom1010EEE/Bratrauma-texture-tool]GitHub 项目、源码与安装说明[/url]
+
+当前为 [b]v0.4.0 源码版[/b]，需要 [b]Node.js 22.12+ 和 pnpm[/b]。按 GitHub README 安装依赖、构建并启动，在浏览器中使用。日常标定不需要 AI 客户端；MCP 为可选功能。
+
+[h2]可以标定什么？[/h2]
+[list]
+[*][b]基础贴图[/b]：SourceRect 框选、origin、物品主贴图缩放、装饰与收纳贴图。
+[*][b]武器 / 工具[/b]：单双手 handle1 / handle2、枪口 / 工具作用点，holdpos / aimpos 与持握角度实时对照。
+[*][b]近战[/b]：静态、准备与挥击目标姿态预览，逐帧检查握点与手臂可达性。
+[*][b]服装[/b]：按肢体对照衣片，直接在人物上拖动原点、调整缩放，检查层级和继承规则。
+[*][b]复合装备[/b]：同时占用穿戴槽与手的外骨骼，联合查看车体 / 衣片与持握部件。
+[*][b]配件[/b]：读取 ItemContainer / Containable 挂点，装配本地配件，调整 itempos / rotation 并随枪械联动。
+[*][b]输出[/b]：保存标定工程、导出坐标 XML；核验过的 LocalMods 支持确认差异后回写并备份。
+[*][b]MCP[/b]：可选本地接口，可读取共享工程、调整坐标、检查姿态和截取预览。写回原 Mod 仍需页面人工确认。
+[/list]
+
+[h2]人物参照与素材[/h2]
+当前人物参照使用 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2809175631]木卫二萌化计划 / EA-HI[/url]，请自行订阅并在本机安装。
+工具读取你本地的素材；本项目和本展示包不包含或重新分发 EA-HI、Empire Arms、Deep-Diving-Armory、九州或原版美术资源。各素材权利属于原作者。
+
+[h2]使用边界[/h2]
+[list]
+[*]仅经过路径核验的 LocalMods 开发副本允许回写；工坊与 Installed 副本只读。
+[*]只回写支持的外观 / 坐标字段，不改伤害、配方、StatusEffect 和 Lua/C# 脚本。
+[*]预览不是完整游戏引擎，不模拟物理碰撞、惯性及任意脚本动画，最终效果仍需游戏内验收。
+[*]导出的 XML 是标定模板，不是包含全部玩法属性的完整物品文件。
+[/list]
+
+[b]本展示包无需启用，不要求服务器或其他玩家订阅。[/b]
+非官方开发工具。问题与建议请通过 [url=https://github.com/tomTom1010EEE/Bratrauma-texture-tool/issues]GitHub Issues[/url] 反馈。
+
+[i]Maintainer: tomTom1010EEE · Source license: AGPL-3.0（见仓库 LICENSE）[/i]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Barotrauma Chara Texture Tool - Showcase" modversion="0.4.0" corepackage="false" gameversion="1.13.4.0">
+  <!-- Informational Workshop package only. The tool is a standalone browser application. -->
+  <!-- Intentionally registers no gameplay content, overrides, scripts, or third-party assets. -->
+  <!-- No Workshop ID is supplied: the game assigns one when the owner publishes this package. -->
+</contentpackage>

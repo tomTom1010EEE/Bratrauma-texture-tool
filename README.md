@@ -5,6 +5,8 @@ Barotrauma Mod 贴图标定器，第二阶段：实时持握、贴图坐标与�
 
 项目地址：<https://github.com/tomTom1010EEE/Bratrauma-texture-tool>。
 
+工坊展示包与发布材料位于 [workshop/](workshop/)。该包只是介绍和下载指引，不包含运行程序，不会在游戏中加载编辑器；发布步骤见 [工坊发布说明](workshop/PUBLISHING.zh-CN.txt)。
+
 **当前发布的是 v0.4.0 源码版本，不是免安装便携版。** 在浏览器中独立运行，不是在游戏内打开的插件。日常标定不需要 AI 客户端；MCP 是可选功能。人物参照需要用户自行订阅并在本地安装 [木卫二萌化计划 / EA-HI](https://steamcommunity.com/sharedfiles/filedetails/?id=2809175631)，本仓库不包含其贴图。Empire Arms、DDA 和九州只用于对应资源的导入与验证，不是工具启动的全部必需依赖。
 
 许可证沿用仓库既有的 [AGPL-3.0](LICENSE)。第三方库、游戏及各 Mod 美术资产不因本仓库的许可证而改变各自授权。本项目不是官方 Barotrauma 编辑器。

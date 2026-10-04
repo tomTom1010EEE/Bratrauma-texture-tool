@@ -1,0 +1,44 @@
+Barotrauma Chara Texture Tool · 工坊展示包发布说明
+
+本目录提供制作好的占位 / 展示内容包。本次只创建本地文件，没有登录或发布 Steam。
+
+推荐标题：
+Barotrauma Chara Texture Tool｜贴图标定工具 [External Tool]
+
+内容包目录：
+BarotraumaCharaTextureTool.Showcase/
+  filelist.xml   有效的非核心内容包；有意不注册任何游戏内容。
+  preview.jpg    原创示意封面，不包含第三方贴图；发布页面需手动选择。
+  README.txt    中英下载与使用指引。
+  GitHub.url    手动打开项目页的快捷方式，不自动执行。
+  COPYING.txt   随包保留的仓库许可证原文。
+
+发布前：
+1. 把完整的 BarotraumaCharaTextureTool.Showcase 文件夹复制到游戏 LocalMods。
+2. 不需要启用本内容包，不要将它添加到联机服务器的必需 Mod。
+3. 在游戏 Mod / 创意工坊的发布页面选中此内容包。
+4. 选择包内 preview.jpg 作为预览图。
+5. 粘贴 description.zh-CN.bbcode.txt 的全文作为工坊简介。
+6. 分类以游戏实际提供选项为准，可考虑 Library；标题和简介明确 External Tool。
+7. 建议第一次设为私有，自行确认页面、订阅下载、README 链接和内容包识别正常。
+8. 确认后由你决定是否公开；若出现协议确认，需你本人阅读并同意。
+
+不要填假 steamworkshopid。首次发布后由游戏写入真实 ID；后续更新保留它。
+不要往此展示包追加整个 node_modules、运行凭据、用户草稿或第三方素材。
+若加入“必需物品”，注意本展示包本身没有依赖。EA-HI 是实际工具的人物参照需求，
+已经在简介中链接，不必为了阅读展示页而强迫订阅全部示例 Mod。
+
+验证范围：
+• 已核对官方 ContentPackage / RegularPackage 源码：非核心内容包允许空内容列表。
+• 本包 XML 可解析，命名、版本与非核心标记有效；不包含游戏内容节点或脚本。
+• gameversion 对齐本机 1.13.4.0，仅表示制作时使用的游戏版本。
+• 尚未在 Steam 上传，也未声称通过平台审核。是否公开由你最终确认。
+
+当前 GitHub 交付的是源码版，不是免安装便携版。不要将简介改写为“订阅即用”或
+“无需 Node”，除非后续已经制作并验证了对应发行包。
+
+源码：
+https://github.com/tomTom1010EEE/Bratrauma-texture-tool
+引擎依据：
+https://github.com/FakeFishGames/Barotrauma/blob/master/Barotrauma/BarotraumaShared/SharedSource/ContentManagement/ContentPackage/ContentPackage.cs
+https://github.com/FakeFishGames/Barotrauma/blob/master/Barotrauma/BarotraumaShared/SharedSource/ContentManagement/ContentPackage/RegularPackage.cs
